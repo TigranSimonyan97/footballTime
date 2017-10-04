@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		5225293C1F80A46600D50ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225293B1F80A46600D50ABE /* AppDelegate.swift */; };
-		5225293E1F80A46600D50ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225293D1F80A46600D50ABE /* ViewController.swift */; };
 		522529411F80A46600D50ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5225293F1F80A46600D50ABE /* Main.storyboard */; };
 		522529431F80A46600D50ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522529421F80A46600D50ABE /* Assets.xcassets */; };
 		522529461F80A46600D50ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522529441F80A46600D50ABE /* LaunchScreen.storyboard */; };
+		522529551F80B04A00D50ABE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5225294E1F80B01B00D50ABE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		522529571F80B04A00D50ABE /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5225294F1F80B01B00D50ABE /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		522529591F80B04B00D50ABE /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 522529501F80B01B00D50ABE /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		529068F41F8552DE002C9B57 /* UIRoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529068F31F8552DE002C9B57 /* UIRoundedImageView.swift */; };
+		529068F71F85549F002C9B57 /* TeamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529068F61F85549F002C9B57 /* TeamsCell.swift */; };
+		52B94F161F854F480006D2B3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94F151F854F480006D2B3 /* TabBarController.swift */; };
+		52B94F221F8550620006D2B3 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94F211F8550620006D2B3 /* GamesViewController.swift */; };
+		52B94F241F8550770006D2B3 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94F231F8550770006D2B3 /* TeamsViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5225295A1F80B04B00D50ABE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				522529551F80B04A00D50ABE /* Alamofire.framework in Embed Frameworks */,
+				522529571F80B04A00D50ABE /* AlamofireImage.framework in Embed Frameworks */,
+				522529591F80B04B00D50ABE /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		522529381F80A46600D50ABE /* FootballTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5225293B1F80A46600D50ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5225293D1F80A46600D50ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		522529401F80A46600D50ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522529421F80A46600D50ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522529451F80A46600D50ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522529471F80A46600D50ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5225294E1F80B01B00D50ABE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5225294F1F80B01B00D50ABE /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		522529501F80B01B00D50ABE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		529068F31F8552DE002C9B57 /* UIRoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRoundedImageView.swift; sourceTree = "<group>"; };
+		529068F61F85549F002C9B57 /* TeamsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsCell.swift; sourceTree = "<group>"; };
+		52B94F151F854F480006D2B3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		52B94F211F8550620006D2B3 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		52B94F231F8550770006D2B3 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +70,7 @@
 			children = (
 				5225293A1F80A46600D50ABE /* FootballTime */,
 				522529391F80A46600D50ABE /* Products */,
+				5225294D1F80B01A00D50ABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,60 @@
 		5225293A1F80A46600D50ABE /* FootballTime */ = {
 			isa = PBXGroup;
 			children = (
+				529068F51F855464002C9B57 /* TableViewCells */,
+				52B94F171F854FA30006D2B3 /* Model */,
+				52B94F181F854FAA0006D2B3 /* View */,
+				52B94F191F854FB00006D2B3 /* Controller */,
 				5225293B1F80A46600D50ABE /* AppDelegate.swift */,
-				5225293D1F80A46600D50ABE /* ViewController.swift */,
 				5225293F1F80A46600D50ABE /* Main.storyboard */,
-				522529421F80A46600D50ABE /* Assets.xcassets */,
 				522529441F80A46600D50ABE /* LaunchScreen.storyboard */,
+				522529421F80A46600D50ABE /* Assets.xcassets */,
 				522529471F80A46600D50ABE /* Info.plist */,
 			);
 			path = FootballTime;
+			sourceTree = "<group>";
+		};
+		5225294D1F80B01A00D50ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5225294E1F80B01B00D50ABE /* Alamofire.framework */,
+				5225294F1F80B01B00D50ABE /* AlamofireImage.framework */,
+				522529501F80B01B00D50ABE /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		529068F51F855464002C9B57 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				529068F61F85549F002C9B57 /* TeamsCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		52B94F171F854FA30006D2B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52B94F181F854FAA0006D2B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				529068F31F8552DE002C9B57 /* UIRoundedImageView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52B94F191F854FB00006D2B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52B94F151F854F480006D2B3 /* TabBarController.swift */,
+				52B94F211F8550620006D2B3 /* GamesViewController.swift */,
+				52B94F231F8550770006D2B3 /* TeamsViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +151,7 @@
 				522529341F80A46600D50ABE /* Sources */,
 				522529351F80A46600D50ABE /* Frameworks */,
 				522529361F80A46600D50ABE /* Resources */,
+				5225295A1F80B04B00D50ABE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,8 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5225293E1F80A46600D50ABE /* ViewController.swift in Sources */,
+				529068F41F8552DE002C9B57 /* UIRoundedImageView.swift in Sources */,
 				5225293C1F80A46600D50ABE /* AppDelegate.swift in Sources */,
+				529068F71F85549F002C9B57 /* TeamsCell.swift in Sources */,
+				52B94F241F8550770006D2B3 /* TeamsViewController.swift in Sources */,
+				52B94F221F8550620006D2B3 /* GamesViewController.swift in Sources */,
+				52B94F161F854F480006D2B3 /* TabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +344,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7RFWDT5WSW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FootballTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigranakert.FootballTime;
@@ -275,6 +361,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7RFWDT5WSW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FootballTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigranakert.FootballTime;
@@ -302,6 +392,7 @@
 				5225294C1F80A46600D50ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

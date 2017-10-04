@@ -10,6 +10,11 @@ import UIKit
 
 class TeamsCell: UITableViewCell {
 
+    
+    //UI Elements
+    @IBOutlet weak var teamLogoImg: UIRoundedImageView!
+    @IBOutlet weak var teamNameLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
